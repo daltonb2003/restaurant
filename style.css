@@ -1,0 +1,398 @@
+body  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serf';
+    background-image: url("images/city.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.wrapper {
+     display: flex;
+     max-width: 1140px;
+     margin: auto;
+     padding: 40px 20px;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+      padding-top: 300px;
+  }
+
+
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 3%;
+    height: 150px; 
+    z-index: 1000;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+
+.main_header {
+    font-size: 4.5vw;
+    font-weight: 800;
+    /* font-weight: 200; */
+    color: rgb(223, 187, 8);
+  }
+
+
+.noodleLogo {
+  width: 80px;
+}
+
+
+.navbar {
+  display: flex;
+  gap: 40px;
+}
+
+
+.navbar_link {
+  color: rgb(255, 255, 255);
+  font-size: 1.2vw;
+  font-weight: bold;
+  transition: 1s;
+}
+
+
+.navbar_link:hover {
+  color: rgb(227, 5, 5);
+  transform: scale(1.33);
+  
+}
+
+.cta_link {
+  color: rgb(255, 255, 255);
+  font-size: 2vw;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.cta_link:hover {
+  color: rgb(227, 5, 5);
+  transform: scale(1.1);
+}
+
+.line {
+    width: 220px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+
+.food {
+    width: 100%;
+  
+}
+
+.about_section {
+  max-width: 1140px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px 1%;
+  gap: 77px;
+  margin: auto;
+}
+
+.about_image {
+  flex: 2;
+  text-align: center;
+  min-width: 325px;
+  
+}
+
+
+.eric_portrait {
+
+  width: 100%;
+
+}
+
+.about_text {
+  color: white;
+  font-size: 1.1vw;
+  flex: 2;
+  min-width: 326px;
+  line-height: 1.7;
+}
+
+
+
+.about_title {
+  text-align: center;
+  color: rgb(223, 187, 8);
+  font-size: 2vw;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+.menu_section {
+  background-color: rgba(220, 4, 4, 0.6); 
+  padding: 60px 5%;
+  margin-top: 40px;
+  color: white;
+}
+
+.menu_title {
+  text-align: center;
+  font-size: 2.5vw;
+  color: rgb(223, 187, 8);
+  margin-bottom: 40px;
+}
+
+.menu_table {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.LeftSideStarters {
+  flex: 1;
+  min-width: 300px;
+}
+
+.menu_heading {
+  font-size: 2vw;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+.meal {
+  margin-bottom: 25px;
+}
+
+.meal h4 {
+  font-size: 1.5vw;
+  color: #fffacd;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 1vw;
+  margin-bottom: 3px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1vw;
+  color: rgb(223, 187, 8);
+}
+
+
+
+.contact_section {
+  background-color: rgb(0, 0, 0);
+  opacity: 93%;
+  padding: 60px 6%;
+  max-width: 1140px;
+  margin: 60px auto;
+  border-radius: 10px;
+ 
+}
+
+.contact_title {
+  text-align: center;
+  font-size: 2.5vw;
+  color: rgb(223, 187, 8);
+  margin-bottom: 30px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact_form label {
+  font-weight: bold;
+  font-size: 1.2vw;
+  color: black;
+}
+
+.contact_form input,
+.contact_form textarea {
+  padding: 10px;
+  font-size: 1vw;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact_button {
+  background-color: black;
+  color: rgb(220, 4, 4);
+  padding: 10px 20px;
+  font-size: 1.2vw;
+  cursor: pointer;
+  border: none;
+  width: fit-content;
+  transition: 0.3s;
+}
+
+
+.thank_you {
+  display: none;
+  text-align: center;
+  font-size: 1.5vw;
+  color: rgb(220, 4, 4);
+  margin-top: 20px;
+}
+
+.contact_link {
+  color: rgb(220, 4, 4);
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.contact_link:hover {
+  color: white;
+  
+}
+
+
+
+
+#thankyou:target {
+  display: block;
+}
+
+
+
+/* full screen */
+@media (min-width: 1024px) {
+
+  .noodleLogo {
+    height: 150px;
+    width: auto;
+  }
+
+  .navbar_link {
+    font-size: 1.5vw; 
+  }
+    .navbar {
+      gap: 200px;
+    }
+
+    .food {
+      width: 50vw;
+      max-width: none;
+    }
+}
+
+
+/*mobile */
+ @media (max-width: 768px) {
+  .main_header {
+    font-size: 13vw;
+  }
+.wrapper {
+  
+  padding-top: 140px; 
+}
+  .cta_button {
+    font-size: 4vw;
+  }
+
+  .navbar {
+    gap: 20px;
+  }
+
+  .navbar_link {
+    font-size: 5vw;
+  }
+
+  .about_section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about_image {
+    width: 100%;
+  }
+
+  .eric_portrait {
+    width: 50vw;
+      max-width: none;
+      
+  }
+  .about_title {
+    font-size: 6vw;
+    
+  }
+
+  .about_text {
+    font-size: 3.5vw;
+   
+  }
+
+
+
+  .menu_title {
+    font-size: 6vw;
+  }
+
+  .menu_heading {
+    font-size: 5vw;
+  }
+
+  .meal h4 {
+    font-size: 4.33vw;
+  }
+
+  .description, .price {
+    font-size: 3.44vw;
+  }
+
+  .menu_table {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contact_title {
+    font-size: 6vw;
+  }
+
+  .contact_form label {
+    font-size: 5vw;
+  }
+
+  .contact_form input,
+  .contact_form textarea {
+    font-size: 5vw;
+  }
+
+  .contact_button {
+    font-size: 5vw;
+  }
+
+  .cta_link {
+    font-size: 5vw;
+  }
+
+  .contact_link {
+    font-size: 4vw;
+  }
+ }
+
+
